@@ -1,0 +1,28 @@
+.productos-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container-card {
+  width: 15.625rem;
+  height: 18.75;
+  border: 1px solid black;
+  border-radius: .3125rem;
+
+  .card-img {
+    width: 100%;
+    height: 60%;
+
+    img {
+      width: 100%;
+      height: 60%;
+      object-fit: contain;
+
+      &:hover {
+        transform: scale(1.3);
+        filter: drop-shadow(2px 2px 5px grey);
+      }
+    }
+  }
+}
