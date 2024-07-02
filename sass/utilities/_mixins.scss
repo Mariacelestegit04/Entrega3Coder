@@ -1,0 +1,66 @@
+.foto {
+    margin-top: 20px;
+    padding-inline-end: 20px;
+    width: 100%;
+    border-radius: 15%;
+    gap: 1.875rem;
+}
+
+/* foto pagina principal*/
+.wrap {
+    padding-bottom: 20%;
+    margin-top: 20px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/5778892/pexels-photo-5778892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wrap-texto {
+    text-align: center;
+    font-variant: initial;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200%;
+
+    
+
+}
+/*pagina nosotros*/
+.nosotros{
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+.chefs{
+    display: flexbox;
+display: contents;
+flex-direction: column;
+gap: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+/*nuestra carta*/
+.letra-entrada{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.entradas{
+flex-direction: row;
+min-height: min-content;
+gap: 1.875rem;
+}
+

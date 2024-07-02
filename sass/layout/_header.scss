@@ -1,11 +1,22 @@
-header {
+.header {
     display: flex;
-    padding-top: 20px;
+    flex-direction: column;
+    padding-top: 30px;
     justify-content: space-between;
     align-items: center;
     background-color: #521313;
     font-family: "Oswald", sans-serif;
-    font-weight: lighter;
-    color: aliceblue;
-    font-size: 25px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    h1 {
+        font-weight: lighter;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-shadow: -3px .1875rem white;
+
+
+    
+    }
 }

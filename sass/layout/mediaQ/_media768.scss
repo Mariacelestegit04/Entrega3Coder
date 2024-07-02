@@ -1,11 +1,7 @@
-@media(max-width:320px){
-    navbar{
-        padding-top: 20px;
+@media(max-width:768px){
+    header{
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
         align-items: center;
-    
     }
 }
-

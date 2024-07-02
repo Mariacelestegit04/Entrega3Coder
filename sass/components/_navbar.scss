@@ -14,7 +14,7 @@ nav {
         gap: 20px;
 
         li {
-            background-color: chartreuse;
+            background-color: rgb(221, 103, 6);
             list-style: none;
 
             a {
@@ -25,7 +25,7 @@ nav {
 
             &:hover {
                 font-size: weight;
-                background-color: red;
+                background-color: rgb(240, 225, 16);
             }
 
         }
