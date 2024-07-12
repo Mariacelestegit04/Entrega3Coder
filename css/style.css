@@ -130,7 +130,6 @@ img:hover {
   background-color: bisque;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-size: contain; }
 
 .wrap-texto {
@@ -171,7 +170,8 @@ img:hover {
 
 .contenedor-form {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: black; }
   .contenedor-form .registration-form {
     display: flex;
     justify-content: center;
@@ -214,15 +214,43 @@ img:hover {
   color: brown; }
 
 /*pagina contacto*/
-redes {
-  display: flex;
-  flex-direction: row;
+.texto-contacto {
+  margin-top: 05%;
   font-family: "Oswald", sans-serif; }
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif; }
+  .redes .h2 .h3 .h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: medium; }
+    .redes .h2 .h3 .h4 .h5 {
+      font-family: "Oswald", sans-serif;
+      font-size: 40%;
+      color: brown;
+      text-shadow: black; }
 
 .logo {
   max-width: 40px; }
 
 /*galerias pag menu y golosos*/
+.cakes {
+  margin-top: 02%;
+  padding-bottom: 03%;
+  font-family: "Oswald", sans-serif;
+  font-size: 40%;
+  color: brown;
+  text-shadow: black; }
+
+.pedido {
+  margin-top: 02%;
+  padding-bottom: 03%;
+  font-family: "Oswald", sans-serif;
+  font-size: xx-large;
+  color: brown;
+  text-shadow: black; }
+
 .galeria {
   columns: 5 320px;
   columns-gap: 0.5em; }
