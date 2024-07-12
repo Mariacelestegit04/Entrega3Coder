@@ -4,8 +4,9 @@
     font-size: larger;
     font-family: "Oswald", sans-serif;
     padding-top: 30px;
-    padding-bottom:30px ;
-    .texto-encabezado{
+    padding-bottom: 30px;
+
+    .texto-encabezado {
         padding-bottom: 30px;
     }
 }
@@ -13,8 +14,11 @@
 
 
 /*Body pagina 1*/
-.main-index{
-    background-image: url(https://www.pexels.com/es-es/foto/familia-celebrando-la-navidad-sosteniendo-bengalas-encendidas-5778892/);
+
+
+.wrap {
+    
+    background-image: url(https://images.pexels.com/photos/5638748/pexels-photo-5638748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-color: bisque;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +28,8 @@
 
 
 }
-.wrap-texto{
+
+.wrap-texto {
     color: beige;
     background-color: black;
     opacity: 0.7;
@@ -34,40 +39,132 @@
     padding: 10px;
 }
 
-.img-menu{
+.img-menu {
     display: flex;
-    text-align:end;
+    text-align: end;
     size-adjust: 50%;
 }
 
+/*pagina nosotros*/
+.nosotros{
+    padding: 7%;
+}
+
+
+
+.work-team{
+    margin-top: 3%;
+    h3{
+        font-size: x-large;
+        font-family: "Oswald", sans-serif;
+    }
+    h4{
+        margin-top: 1%;
+        font-size: larger;
+        font-weight: bold;
+        font-family: "Oswald", sans-serif;
+        text-decoration: overline;
+        text-transform: uppercase;
+        color: brown
+    }
+h5{
+    margin-top: 4%;
+    font-size: x-large;
+    font-family: "Oswald", sans-serif;
+
+}
+}
+
+.contenedor-form {
+    display: flex;
+    justify-content: center;
+
+
+    .registration-form {
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+        font-family: "Oswald", sans-serif;
+    
+    }
+    
+    .registration-form h3 {
+        font-size: 40px;
+        font-family: "Oswald", sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 40px 0;
+    }
+    
+    .registration-form p {
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+        margin: 15px 0;
+    }
+    
+    
+    .registration-form input {
+        font-size: 16px;
+        padding: 15px 10px;
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+        outline: none;
+    }
+    
+    .registration-form button {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0;
+        padding: 10px 15px;
+        width: 50%;
+        border: 0;
+        border-radius: 5px;
+        background-color: aquamarine;
+    }
+    
+}
+.proximamente{
+    margin-top: 3%;
+    padding-bottom: 5%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: brown;
+    
+
+}
 
 /*pagina contacto*/
 
-redes{
+redes {
     display: flex;
     flex-direction: row;
-font-family: "Playwrite MX", cursive;
+    font-family: "Oswald", sans-serif;
 
 
 }
-.logo{
+
+.logo {
     max-width: 40px;
 }
 
 /*galerias pag menu y golosos*/
-.galeria{
-    columns:5 320px;
+.galeria {
+    columns: 5 320px;
     columns-gap: 0.5em;
-    
+
 }
 
 
 
-.galeria-img{
+.galeria-img {
     max-width: 100%;
     margin: gap 0.5em;
     display: block;
     outline: 2px solid white;
     outline: offset -10px;
-    
+
 }

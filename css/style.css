@@ -114,23 +114,6 @@ img:hover {
         transform: scale(1.3);
         filter: drop-shadow(2px 2px 5px grey); }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  padding-top: 30px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #521313;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal; }
-  .header h1 {
-    font-weight: lighter;
-    font-size: 50px;
-    text-transform: uppercase;
-    text-shadow: -3px .1875rem white; }
-
 .encabezado {
   flex-direction: center;
   background-origin: unset;
@@ -142,8 +125,8 @@ img:hover {
     padding-bottom: 30px; }
 
 /*Body pagina 1*/
-.main-index {
-  background-image: url(https://www.pexels.com/es-es/foto/familia-celebrando-la-navidad-sosteniendo-bengalas-encendidas-5778892/);
+.wrap {
+  background-image: url(https://images.pexels.com/photos/5638748/pexels-photo-5638748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-color: bisque;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,11 +147,77 @@ img:hover {
   text-align: end;
   size-adjust: 50%; }
 
+/*pagina nosotros*/
+.nosotros {
+  padding: 7%; }
+
+.work-team {
+  margin-top: 3%; }
+  .work-team h3 {
+    font-size: x-large;
+    font-family: "Oswald", sans-serif; }
+  .work-team h4 {
+    margin-top: 1%;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+    color: brown; }
+  .work-team h5 {
+    margin-top: 4%;
+    font-size: x-large;
+    font-family: "Oswald", sans-serif; }
+
+.contenedor-form {
+  display: flex;
+  justify-content: center; }
+  .contenedor-form .registration-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    font-family: "Oswald", sans-serif; }
+  .contenedor-form .registration-form h3 {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0; }
+  .contenedor-form .registration-form p {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    margin: 15px 0; }
+  .contenedor-form .registration-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none; }
+  .contenedor-form .registration-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: aquamarine; }
+
+.proximamente {
+  margin-top: 3%;
+  padding-bottom: 5%;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: brown; }
+
 /*pagina contacto*/
 redes {
   display: flex;
   flex-direction: row;
-  font-family: "Playwrite MX", cursive; }
+  font-family: "Oswald", sans-serif; }
 
 .logo {
   max-width: 40px; }
@@ -184,6 +233,23 @@ redes {
   display: block;
   outline: 2px solid white;
   outline: offset -10px; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #521313;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; }
+  .header h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: -3px .1875rem white; }
 
 .footer {
   margin: 0%;
