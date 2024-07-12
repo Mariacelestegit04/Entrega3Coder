@@ -22,7 +22,6 @@
     background-color: bisque;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-size: contain;
 
 
@@ -78,6 +77,9 @@ h5{
 .contenedor-form {
     display: flex;
     justify-content: center;
+    color: black;
+    
+    
 
 
     .registration-form {
@@ -139,10 +141,33 @@ h5{
 
 /*pagina contacto*/
 
-redes {
-    display: flex;
-    flex-direction: row;
+.texto-contacto{
+    margin-top: 05%;
     font-family: "Oswald", sans-serif;
+
+}
+.redes {
+
+    display: flex;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+.h2 .h3 .h4{
+    font-family: "Oswald", sans-serif;
+    font-size: medium;
+    .h5 {
+        font-family: "Oswald", sans-serif;
+        font-size: 40%;
+        color: brown;
+        text-shadow: black;
+
+
+    }
+
+
+}
+
+
+
 
 
 }
@@ -152,9 +177,30 @@ redes {
 }
 
 /*galerias pag menu y golosos*/
+
+.cakes{
+    margin-top: 02%;
+    padding-bottom: 03%;
+    font-family: "Oswald", sans-serif;
+        font-size: 40%;
+        color: brown;
+        text-shadow: black;
+
+}
+.pedido{
+    margin-top: 02%;
+    padding-bottom: 03%;
+    font-family: "Oswald", sans-serif;
+        font-size: xx-large;
+        color: brown;
+        text-shadow: black;
+}
+
+
+
 .galeria {
     columns: 5 320px;
-    columns-gap: 0.5em;
+    
 
 }
 

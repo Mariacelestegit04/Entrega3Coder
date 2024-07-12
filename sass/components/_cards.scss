@@ -12,6 +12,8 @@
   border-radius: .3125rem;
   padding-top: 0%;
   border-color: aliceblue;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
   
 
   .card-img {
@@ -21,7 +23,7 @@
     
 
     img {
-      width: 100%;
+      width: 50%;
       height: 50%;
       object-fit: contain;
       transform: matrix3d(.625rem);
