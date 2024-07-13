@@ -2,18 +2,17 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  border-color: black;
+  border-color: rgb(83, 4, 4);
 }
 
 .container-card {
   width: 15.625rem;
-  height: 18.75;
   border: 3px solid black;
   border-radius: .3125rem;
   padding-top: 0%;
-  border-color: aliceblue;
+  border-color:brown;
   font-family: "Oswald", sans-serif;
-  font-weight: bolder;
+  font-weight:lighter;
   
 
   .card-img {
@@ -28,10 +27,6 @@
       object-fit: contain;
       transform: matrix3d(.625rem);
 
-      &:hover {
-        transform: scale(1.3);
-        filter: drop-shadow(2px 2px 5px grey);
-      }
     }
   }
 }

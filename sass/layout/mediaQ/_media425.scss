@@ -8,7 +8,14 @@
         align-items: center;
     
     }
-    .productos-container{
-      justify-content: first baseline;
-    }
+    
+  
+.productos-container {
+  
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  
 }
+
+} 
