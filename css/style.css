@@ -91,17 +91,16 @@ nav {
   display: flex;
   justify-content: center;
   gap: 30px;
-  border-color: black; }
+  border-color: #530404; }
 
 .container-card {
   width: 15.625rem;
-  height: 18.75;
   border: 3px solid black;
   border-radius: .3125rem;
   padding-top: 0%;
-  border-color: aliceblue;
+  border-color: brown;
   font-family: "Oswald", sans-serif;
-  font-weight: bolder; }
+  font-weight: lighter; }
   .container-card .card-img {
     width: 100%;
     height: 60%; }
@@ -111,10 +110,6 @@ img {
       height: 50%;
       object-fit: contain;
       transform: matrix3d(0.625rem); }
-      .container-card .card-img max-width:none
-img:hover {
-        transform: scale(1.3);
-        filter: drop-shadow(2px 2px 5px grey); }
 
 .encabezado {
   flex-direction: center;
@@ -173,13 +168,15 @@ img:hover {
 .contenedor-form {
   display: flex;
   justify-content: center;
-  color: black; }
+  color: black;
+  border-color: brown; }
   .contenedor-form .registration-form {
     display: flex;
     justify-content: center;
     text-align: center;
     width: 400px;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    border-color: brown; }
   .contenedor-form .registration-form h3 {
     font-size: 40px;
     font-family: "Oswald", sans-serif;
@@ -302,7 +299,10 @@ img:hover {
   header {
     flex-direction: column;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+  .productos-container {
+    display: flex;
+    flex-direction: column; } }
 
 @media (max-width: 4.25px) {
   .navbar {
@@ -312,7 +312,8 @@ img:hover {
     gap: 10px;
     align-items: center; }
   .productos-container {
-    justify-content: first baseline; } }
+    display: flex;
+    flex-direction: column; } }
 
 @media (max-width: 4.25px) {
   .navbar {
@@ -322,7 +323,8 @@ img:hover {
     gap: 10px;
     align-items: center; }
   .productos-container {
-    justify-content: first baseline; } }
+    display: flex;
+    flex-direction: column; } }
 
 @media (max-width: 320px) {
   navbar {
@@ -330,4 +332,7 @@ img:hover {
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    align-items: center; } }
+    align-items: center; }
+  .productos-container {
+    display: flex;
+    flex-direction: column; } }
