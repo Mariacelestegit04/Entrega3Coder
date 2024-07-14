@@ -282,7 +282,7 @@ img {
     text-shadow: -3px .1875rem white; }
 
 .footer {
-  margin: 0%;
+  margin: 20px;
   padding: 0%;
   flex-direction: row;
   justify-content: center;
