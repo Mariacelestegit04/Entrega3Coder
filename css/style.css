@@ -170,7 +170,9 @@ img {
   display: flex;
   justify-content: center;
   color: black;
-  border-color: brown; }
+  border-color: brown;
+  z-index: 99;
+  background-color: #2e3333; }
   .contenedor-form .registration-form {
     display: flex;
     justify-content: center;
@@ -187,7 +189,8 @@ img {
   .contenedor-form .registration-form p {
     font-size: 20px;
     font-family: "Oswald", sans-serif;
-    margin: 15px 0; }
+    margin: 15px 0;
+    color: azure; }
   .contenedor-form .registration-form input {
     font-size: 16px;
     padding: 15px 10px;
